@@ -39,6 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: () {
           i++;
           setState(() {});
+          //set state re-build widget
         },
         child: Icon(Icons.add),
       ),
